@@ -12,7 +12,7 @@ void loop() {
 	if(ttp.getPressedKey())
 	{
 		Serial.println(ttp.getPressedKey(), HEX);
-        ttp.clearPressedKey();
+		ttp.clearPressedKey();
 	}
   delay(100);
   // put your main code here, to run repeatedly:
