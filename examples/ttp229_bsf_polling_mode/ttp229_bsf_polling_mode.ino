@@ -2,7 +2,7 @@
 void setup() {
   Serial.begin(9600);
   ttp.init();
-  ttp.setInterruptMode();
+  //ttp.setInterruptMode();
   // put your setup code here, to run once:
 
 }

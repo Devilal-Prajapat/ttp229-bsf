@@ -1,0 +1,18 @@
+ttp.init()                     --->set default configuration
+
+
+ttp.setPins(scl_pin, sdo_pin)  ---> if you want to change the default pin call this befor ttp.init()
+
+
+ttp.setInterruptMode()         ---> enable interrupt based key pressed;
+
+
+// call these api for polling mode
+ttp.ReadKeypad()               ---> Read keypad      
+ttp.getkey();                  ---> return allkey value pressed and non pressed
+
+
+ttp.getPressedKey()            ---> return key pressed
+
+ttp.clearPressedKey()          ---> clear key pressed
+
